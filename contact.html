@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Alexander Walters</title>
+        <link rel="stylesheet" href="/styles3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="sidebar">
+            <h1>Alexander Walters</h1>
+            <div class="navigation">
+                <li>
+                    <a href="index.html">highlights</a>
+                </li>
+                <li>
+                    <a href="latest.html">latest</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="current">contact</a>
+                </li>
+            </div>
+        </nav>
+        <div class="container" id="wrapper">
+            <div class="block block-1">
+            </div>
+            <div class="block block-2">
+                    <p> Walters is a photographer and software engineer living in New Jersey.
+                    <br>
+                    <br>
+                    When he is not coding he likes to spend time with his friends and family recording special moments.
+                    <br><br>
+                    For bookings, client list or other inquiries, please send a message on the following social media.
+                    </p>    
+                    <div class="form">
+                        <a href="https://www.linkedin.com/in/walterayllon/">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_alexanderwalter_/">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+        <script>
+            var blocks = document.getElementsByClassName("block");
+            var container = document.getElementsByClassName("container");
+            var hs = new HorizontalScroll.default({
+                blocks: blocks,
+                container: container,
+            });
+        </script>
+    </body>
+</html>

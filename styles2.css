@@ -1,0 +1,83 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.384);
+  margin-left: 15vh;
+  margin-right: 55vh;
+  margin: 5vh 5vh;
+  height: 90vh;
+  width: 30vh;
+  position: absolute;
+  z-index: 5;
+}
+h1 {
+  font-family: "Cormorant", serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  transform: translateY(20vh);
+  text-align: center;
+}
+.navigation {
+  font-family: "Cormorant", serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+li {
+  list-style-type: none;
+  font-style: normal;
+  margin-left: 10px;
+  transform: translateY(23vh);
+  text-decoration: none;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+li a.current {
+  color: rgb(255, 205, 68);
+  font-size: 2rem;
+  font-style: italic;
+}
+li p {
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  transform: translateX(1rem);
+}
+.block {
+  position: relative;
+  width: 580px;
+  height: 460px;
+  margin-left: 10vh;
+  height: 90vh;
+}
+.block-1 {
+  background: url(/latest_images/img1.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  margin-left: 500px;
+}
+.block-2 {
+  background: url(/latest_images/img2.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.block-3 {
+  background: url(/latest_images/img3.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  background-position: 53%;
+}
+.container {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: fit-content;
+  height: 90vh;
+  display: flex;
+  z-index: 1;
+}
