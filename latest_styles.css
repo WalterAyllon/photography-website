@@ -58,6 +58,7 @@ li p {
   height: 460px;
   margin-left: 10vh;
   height: 90vh;
+  justify-content: center;
 }
 .block-1 {
   background: url(/latest_images/img1.jpg) no-repeat 50% 50%;

@@ -50,6 +50,7 @@ li a.current {
   height: 460px;
   margin-left: 10vh;
   height: 90vh;
+  justify-content: center;
 }
 .block-1 {
   background: url(/images/contact.jpg) no-repeat 50% 50%;
