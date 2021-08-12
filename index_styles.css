@@ -54,54 +54,21 @@ li a.current {
 .block {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  width: 65%;
-  height: 40%;
+  justify-content: left;
+  width: 30vw;
+  height: 80vh;
   margin-bottom: 0;
   transform-origin: right top;
   transform: rotate(90deg) translateY(-30%);
 }
+.block img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
 .block-1 {
-  background: url(/images/img1.jpg) no-repeat 50% 50%;
-  background-size: cover;
-  margin-top: 55vw;
-}
-.block-2 {
-  background: url(/images/img2.JPG) no-repeat 50% 50%;
-  background-size: cover;
-}
-.block-3 {
-  background: url(/images/img3.JPG) no-repeat 50% 50%;
-  background-size: cover;
-}
-.block-4 {
-  background: url(/images/img4.jpg) no-repeat 50% 50%;
-  background-size: cover;
-  background-position: 43%;
-}
-.block-5 {
-  background: url(/images/img5.JPG) no-repeat 50% 50%;
-  background-size: cover;
-}
-.block-6 {
-  background: url(/images/img6.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-.block-7 {
-  background: url(/images/img7.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-.block-8 {
-  background: url(/images/img8.JPG) no-repeat 50% 50%;
-  background-size: cover;
-}
-.block-9 {
-  background: url(/images/img9.JPG) no-repeat 50% 50%;
-  background-size: cover;
-}
-.block-10 {
-  background: url(/images/img10.JPG) no-repeat 50% 50%;
-  background-size: cover;
+  margin-top: 50vw;
 }
 .container {
   width: 100vh;
@@ -113,7 +80,7 @@ li a.current {
   scrollbar-width: none;
   transform: rotate(-90deg);
   transform-origin: right top;
-  transform: rotate(-90deg) translateY(-100vh);
+  transform: rotate(-90deg) translateY(-100vh) translateX(5%);
 }
 .container::-webkit-scrollbar {
   display: none;
@@ -158,8 +125,7 @@ li a.current {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
+    align-items: center;
     margin: 0;
     height: 1000vh;
     width: 100%;
@@ -171,13 +137,16 @@ li a.current {
   }
   .block {
     display: block;
-    width: 100vw;
+    width: 40vw;
     margin-top: 0;
-    height: 100%;
+    margin-bottom: 5vh;
+    height: auto;
     position: relative;
     display: flex;
     transform-origin: none;
     transform: rotate(0deg) translateY(0%);
+    justify-content: center;
+    min-width: 375px;
   }
   .block-1 {
     margin-left: 0;
@@ -216,7 +185,7 @@ li a.current {
     transform: translateY(0);
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1580px) {
   body {
     overflow: hidden;
     overflow-y: scroll;
@@ -249,10 +218,9 @@ li a.current {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
+    align-items: center;
     margin: 0;
-    height: 1000vh;
+    height: 315vh;
     width: 100%;
     margin-left: 0;
     overflow-y: scroll;
@@ -262,13 +230,16 @@ li a.current {
   }
   .block {
     display: block;
-    width: 100vw;
+    width: 40vw;
     margin-top: 0;
-    height: 100%;
+    margin-bottom: 5vh;
+    height: auto;
     position: relative;
     display: flex;
     transform-origin: none;
     transform: rotate(0deg) translateY(0%);
+    justify-content: center;
+    min-width: 375px;
   }
   .block-1 {
     margin-left: 0;

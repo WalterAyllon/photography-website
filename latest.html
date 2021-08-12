@@ -7,6 +7,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <nav class="sidebar">
@@ -22,23 +24,32 @@
                     <a href="contact.html">contact</a>
                 </li>
             </div>
+            <button class="ham">
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <div class="mobile-navigation">
+                <li>
+                    <a href="index.html">highlights</a>
+                </li>
+                <li>
+                    <a href="latest.html" class="current">latest</a>
+                </li>
+                <li>
+                    <a href="contact.html">contact</a>
+                </li>
+            </div>
         </nav>
         <div class="container" id="wrapper">
             <div class="block block-1">
+                <img src="./latest_images/img1.jpg">
             </div>
             <div class="block block-2">
+                <img src="./latest_images/img2.jpg">
             </div>
             <div class="block block-3">
+                <img src="./latest_images/img3.jpg">
             </div>
         </div>
-        <script src="index.js"></script>
-        <script>
-                var blocks = document.getElementsByClassName("block");
-                var container = document.getElementsByClassName("container");
-                var hs = new HorizontalScroll.default({
-                blocks: blocks,
-                container: container,
-            });
-        </script>
+        <script src="/mobile_menu.js"></script>
     </body>
 </html>
